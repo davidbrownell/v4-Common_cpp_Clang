@@ -1,0 +1,35 @@
+# ----------------------------------------------------------------------
+Activate.cmd
+Activate[.-]*.cmd
+Activate.sh
+Activate[.-]*.sh
+
+Deactivate.cmd
+Deactivate[.-]*.cmd
+Deactivate.sh
+Deactivate[.-]*.sh
+
+Setup[.-]*.cmd
+Setup[.-]*.sh
+
+# ----------------------------------------------------------------------
+Generated/**
+
+.pytest_cache/**
+__pycache__/**
+*.pyc
+*.pyo
+
+.coverage
+coverage.xml
+
+.vscode/*
+test_localsystem.txt
+
+# ----------------------------------------------------------------------
+.pylintrc
+
+Tools/grcov/v0.8.12/Linux/*/*
+Tools/grcov/v0.8.12/Windows/*/*
+
+Tools/LLVM/v15.0.2/Windows/x64/*/*
